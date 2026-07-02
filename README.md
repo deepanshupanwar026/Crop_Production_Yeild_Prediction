@@ -1,37 +1,35 @@
-# Crop Yield & Production Prediction
+#  Crop Yield & Production Prediction
 
-This project predicts crop yield and production using Machine Learning.
+A Machine Learning web application that predicts crop yield and crop production using agricultural data. The application is built with Python, Streamlit, and Scikit-learn to provide quick and accurate predictions.
 
-## Features
-
+##  Features
 - Crop Yield Prediction
 - Crop Production Prediction
-- Streamlit Web App
-- SQLite Database
-- Random Forest Model
+- Interactive Streamlit Interface
+- Data Preprocessing & Feature Engineering
+- SQLite Database for Prediction History
 
-## Installation
+## 🛠️ Tech Stack
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- SQLite
+
+##  Run the Project
 
 ```bash
 pip install -r requirements.txt
-```
-
-## Download Model Files
-
-The trained model files are not included in this repository because they exceed GitHub's file size limit.
-
-Download them here:
-
-- model_prod.pkl
-  https://drive.google.com/your-link
-
-- model_yield.pkl
-  https://drive.google.com/your-link
-
-After downloading, place them in the project root folder.
-
-## Run
-
-```bash
 streamlit run app.py
 ```
+
+##  Note
+
+The trained model files (`model_prod.pkl` and `model_yield.pkl`) are not included because they exceed GitHub's file size limit. This repository focuses on the application's implementation, preprocessing pipeline, and deployment code.
+
+##  Author
+
+**Deepanshu Panwar**
+
+GitHub: https://github.com/deepanshupanwar026
