@@ -9,7 +9,7 @@ A Machine Learning web application that predicts crop yield and crop production 
 - Data Preprocessing & Feature Engineering
 - SQLite Database for Prediction History
 
-## 🛠️ Tech Stack
+## Technology used
 - Python
 - Streamlit
 - Scikit-learn
